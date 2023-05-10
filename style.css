@@ -1,5 +1,9 @@
 body{
-    background-color color: #000;
+    background-color:#ccc;
+}
+
+#banner{
+  width: 100%;  
 }
 
 h1{
@@ -20,4 +24,3 @@ em strong{
     color: red;
 }
 
-frot
