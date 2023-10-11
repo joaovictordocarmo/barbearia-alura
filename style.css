@@ -25,7 +25,7 @@ nav a {
 	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
-	text-decoration: none;
+	textitulo-centralizadot-decoration: none;
 }
 
 nav a:hover{
@@ -161,4 +161,28 @@ td{
 /*CSS da pagina principal*/
 .banner{
 	width: 100%;
+}
+.titulo-centralizado{
+	text-align: center;
+	font-size: 2em;
+	margin: 1em 0 1em;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+.principal em{
+	font-style: italic;
+}
+.imagembeneficios{
+	width: 60%;
+}
+.utensilios{
+	width: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
