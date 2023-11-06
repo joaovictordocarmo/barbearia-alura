@@ -25,19 +25,18 @@ nav a {
 	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
-	textitulo-centralizadot-decoration: none;
+	text-decoration: none;
 }
 
 nav a:hover{
- color:#c78c19;
- text-decoration: underline;
+	color: #c78c19;
+	text-decoration: underline;
 }
 
 .produtos{
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px;
-		
 }
 .produtos li{
 	display: inline-block;
@@ -45,27 +44,25 @@ nav a:hover{
 	width: 30%;
 	vertical-align: top;
 	margin: 50px 0;
-	
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border: 2px solid black;
-	border-radius:  10px;
-
+	border-radius: 10px;
 }
 
 .produtos h2{
 	font-size: 30px;
 	font-weight: bold;
 }
+
 .produtos li:hover{
-	border-color:#c78c19;
-	color:#c78c19;
-	text-decoration: underline;
+	border-color: #c78c19;
+	
 }
 
 .produtos li:hover h2{
-	font-size: 34px;
+	font-size: 40px;
 }
 
 .produtos li:active{
@@ -100,89 +97,113 @@ form{
 	margin: 40px 0;
 }
 
-
 input{
-	border: 3px solid black;
-	border-radius: 10px;
+	
+	border-radius: 5px;
+
 }
 
 
-input:hover{
-	border:2px solid black
-}
 
 form label{
 	display: block;
 	font-size: 20px;
-	margin: 8px;
+	margin: 0 0 10px 0;
+	
 }
 
 form .input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
-	padding: 10px 10px;
+	padding: 10px 25px;
 	width: 50%;
 }
 
-
-
 textarea{
-	margin: 0 0 20px 0;
+	margin:0 0 20px 0;
 }
 
 .checkbox{
-	margin: 20px 0 ;
+	margin: 20px 0;
 }
 
 .enviar{
-	width: 15%;
-	padding: 7px 0;
-	background: #ccc;
+	width: 40%;
+	padding: 15px 0;
+	background-color:orange ;
+	color: aquamarine;
 	font-size: 18px;
 	font-weight: bold;
-	transition: 1s all;
+	transition: 0.5s all;
 }
 
 .enviar:hover{
-	background-color: #ccc;
-	
+	background-color: black;
+	color: white;
+	transform: scale(1.05);
 }
 
 table{
-	margin: 20 px  0 40px;
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555;
+	color: white;
+	font-weight: bold;
 }
 
 td{
-	border: 1px solid black;
-	padding: 15px 10px;
+	border: 2px solid #000;
+	padding: 15px 66px;
 }
 
-
-/*CSS da pagina principal*/
+/*CSS da página principal*/
 .banner{
 	width: 100%;
 }
+
 .titulo-centralizado{
+	
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.5em;
 	margin: 1em 0 1em;
+	font-family: 'Bebas Neue', sans-serif;
+
 }
 
 .principal p{
 	margin: 0 0 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: justify;
+	
 }
 
 .principal strong{
 	font-weight: bold;
 }
+
 .principal em{
 	font-style: italic;
 }
+
 .imagembeneficios{
 	width: 60%;
 }
+
 .utensilios{
 	width: 150px;
 	float: left;
 	margin: 0 20px 20px 0;
 }
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
